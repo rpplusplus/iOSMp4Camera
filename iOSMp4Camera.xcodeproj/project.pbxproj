@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC98150167A698200160C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC9814F167A698200160C01 /* UIKit.framework */; };
+		ADC98152167A698200160C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC98151167A698200160C01 /* Foundation.framework */; };
+		ADC98154167A698200160C01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC98153167A698200160C01 /* CoreGraphics.framework */; };
+		ADC9815A167A698200160C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADC98158167A698200160C01 /* InfoPlist.strings */; };
+		ADC9815C167A698200160C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9815B167A698200160C01 /* main.m */; };
+		ADC98160167A698200160C01 /* TXXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC9815F167A698200160C01 /* TXXAppDelegate.m */; };
+		ADC98162167A698200160C01 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC98161167A698200160C01 /* Default.png */; };
+		ADC98164167A698200160C01 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC98163167A698200160C01 /* Default@2x.png */; };
+		ADC98166167A698200160C01 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC98165167A698200160C01 /* Default-568h@2x.png */; };
+		ADC98169167A698200160C01 /* TXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC98168167A698200160C01 /* TXXViewController.m */; };
+		ADC9816C167A698200160C01 /* TXXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC9816A167A698200160C01 /* TXXViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADC9814B167A698200160C01 /* iOSMp4Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMp4Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC9814F167A698200160C01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADC98151167A698200160C01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADC98153167A698200160C01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADC98157167A698200160C01 /* iOSMp4Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSMp4Camera-Info.plist"; sourceTree = "<group>"; };
+		ADC98159167A698200160C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADC9815B167A698200160C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADC9815D167A698200160C01 /* iOSMp4Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSMp4Camera-Prefix.pch"; sourceTree = "<group>"; };
+		ADC9815E167A698200160C01 /* TXXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXXAppDelegate.h; sourceTree = "<group>"; };
+		ADC9815F167A698200160C01 /* TXXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXXAppDelegate.m; sourceTree = "<group>"; };
+		ADC98161167A698200160C01 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ADC98163167A698200160C01 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ADC98165167A698200160C01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ADC98167167A698200160C01 /* TXXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXXViewController.h; sourceTree = "<group>"; };
+		ADC98168167A698200160C01 /* TXXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXXViewController.m; sourceTree = "<group>"; };
+		ADC9816B167A698200160C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXXViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC98148167A698200160C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC98150167A698200160C01 /* UIKit.framework in Frameworks */,
+				ADC98152167A698200160C01 /* Foundation.framework in Frameworks */,
+				ADC98154167A698200160C01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC98140167A698200160C01 = {
+			isa = PBXGroup;
+			children = (
+				ADC98155167A698200160C01 /* iOSMp4Camera */,
+				ADC9814E167A698200160C01 /* Frameworks */,
+				ADC9814C167A698200160C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC9814C167A698200160C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9814B167A698200160C01 /* iOSMp4Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC9814E167A698200160C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9814F167A698200160C01 /* UIKit.framework */,
+				ADC98151167A698200160C01 /* Foundation.framework */,
+				ADC98153167A698200160C01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADC98155167A698200160C01 /* iOSMp4Camera */ = {
+			isa = PBXGroup;
+			children = (
+				ADC9815E167A698200160C01 /* TXXAppDelegate.h */,
+				ADC9815F167A698200160C01 /* TXXAppDelegate.m */,
+				ADC98167167A698200160C01 /* TXXViewController.h */,
+				ADC98168167A698200160C01 /* TXXViewController.m */,
+				ADC9816A167A698200160C01 /* TXXViewController.xib */,
+				ADC98156167A698200160C01 /* Supporting Files */,
+			);
+			path = iOSMp4Camera;
+			sourceTree = "<group>";
+		};
+		ADC98156167A698200160C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC98157167A698200160C01 /* iOSMp4Camera-Info.plist */,
+				ADC98158167A698200160C01 /* InfoPlist.strings */,
+				ADC9815B167A698200160C01 /* main.m */,
+				ADC9815D167A698200160C01 /* iOSMp4Camera-Prefix.pch */,
+				ADC98161167A698200160C01 /* Default.png */,
+				ADC98163167A698200160C01 /* Default@2x.png */,
+				ADC98165167A698200160C01 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC9814A167A698200160C01 /* iOSMp4Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC9816F167A698200160C01 /* Build configuration list for PBXNativeTarget "iOSMp4Camera" */;
+			buildPhases = (
+				ADC98147167A698200160C01 /* Sources */,
+				ADC98148167A698200160C01 /* Frameworks */,
+				ADC98149167A698200160C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSMp4Camera;
+			productName = iOSMp4Camera;
+			productReference = ADC9814B167A698200160C01 /* iOSMp4Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC98142167A698200160C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TXX;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "xiaoxuan Tang";
+			};
+			buildConfigurationList = ADC98145167A698200160C01 /* Build configuration list for PBXProject "iOSMp4Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADC98140167A698200160C01;
+			productRefGroup = ADC9814C167A698200160C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC9814A167A698200160C01 /* iOSMp4Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC98149167A698200160C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC9815A167A698200160C01 /* InfoPlist.strings in Resources */,
+				ADC98162167A698200160C01 /* Default.png in Resources */,
+				ADC98164167A698200160C01 /* Default@2x.png in Resources */,
+				ADC98166167A698200160C01 /* Default-568h@2x.png in Resources */,
+				ADC9816C167A698200160C01 /* TXXViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC98147167A698200160C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC9815C167A698200160C01 /* main.m in Sources */,
+				ADC98160167A698200160C01 /* TXXAppDelegate.m in Sources */,
+				ADC98169167A698200160C01 /* TXXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADC98158167A698200160C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC98159167A698200160C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADC9816A167A698200160C01 /* TXXViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC9816B167A698200160C01 /* en */,
+			);
+			name = TXXViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC9816D167A698200160C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADC9816E167A698200160C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC98170167A698200160C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSMp4Camera/iOSMp4Camera-Prefix.pch";
+				INFOPLIST_FILE = "iOSMp4Camera/iOSMp4Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADC98171167A698200160C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSMp4Camera/iOSMp4Camera-Prefix.pch";
+				INFOPLIST_FILE = "iOSMp4Camera/iOSMp4Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC98145167A698200160C01 /* Build configuration list for PBXProject "iOSMp4Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC9816D167A698200160C01 /* Debug */,
+				ADC9816E167A698200160C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC9816F167A698200160C01 /* Build configuration list for PBXNativeTarget "iOSMp4Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC98170167A698200160C01 /* Debug */,
+				ADC98171167A698200160C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC98142167A698200160C01 /* Project object */;
+}
