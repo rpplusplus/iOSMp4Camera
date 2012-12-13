@@ -8,7 +8,9 @@
 
 #import "TXXViewController.h"
 @interface TXXViewController ()
-
+- (NSInteger) getFileSize:(NSString*) path;
+- (CGFloat) getVideoDuration:(NSURL*) URL;
+- (void) convertFinish;
 @end
 
 @implementation TXXViewController
