@@ -112,7 +112,11 @@
 
         AVAssetExportSession *exportSession = [[AVAssetExportSession alloc]initWithAsset:avAsset
                                                                               presetName:_mp4Quality];
-        _mp4Path = [[NSHomeDirectory() stringByAppendingFormat:@"/Documents/output%d.mp4", arc4random()] retain];
+        NSDateFormatter* formater = [[NSDateFormatter alloc] init];
+        [formater setDateFormat:@"yyyy-MM-dd"];
+        _mp4Path = [[NSHomeDirectory() stringByAppendingFormat:@"/Documents/output-%@.mp4", [formater stringFromDate:[NSDate date]]] retain];
+        [formater release];
+        
         exportSession.outputURL = [NSURL fileURLWithPath: _mp4Path];
         exportSession.shouldOptimizeForNetworkUse = _networkOpt;
         exportSession.outputFileType = AVFileTypeMPEG4;
