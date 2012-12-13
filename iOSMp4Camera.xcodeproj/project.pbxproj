@@ -18,6 +18,9 @@
 		ADC98166167A698200160C01 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC98165167A698200160C01 /* Default-568h@2x.png */; };
 		ADC98169167A698200160C01 /* TXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC98168167A698200160C01 /* TXXViewController.m */; };
 		ADC9816C167A698200160C01 /* TXXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC9816A167A698200160C01 /* TXXViewController.xib */; };
+		ADC98181167A786900160C01 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC98180167A786900160C01 /* AVFoundation.framework */; };
+		ADC98183167A7B7D00160C01 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC98182167A7B7D00160C01 /* CoreMedia.framework */; };
+		ADC9818D167A95B300160C01 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC9818C167A95B300160C01 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		ADC98167167A698200160C01 /* TXXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXXViewController.h; sourceTree = "<group>"; };
 		ADC98168167A698200160C01 /* TXXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXXViewController.m; sourceTree = "<group>"; };
 		ADC9816B167A698200160C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXXViewController.xib; sourceTree = "<group>"; };
+		ADC98180167A786900160C01 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ADC98182167A7B7D00160C01 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ADC9818C167A95B300160C01 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC9818D167A95B300160C01 /* MediaPlayer.framework in Frameworks */,
+				ADC98183167A7B7D00160C01 /* CoreMedia.framework in Frameworks */,
+				ADC98181167A786900160C01 /* AVFoundation.framework in Frameworks */,
 				ADC98150167A698200160C01 /* UIKit.framework in Frameworks */,
 				ADC98152167A698200160C01 /* Foundation.framework in Frameworks */,
 				ADC98154167A698200160C01 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,9 @@
 		ADC9814E167A698200160C01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADC9818C167A95B300160C01 /* MediaPlayer.framework */,
+				ADC98182167A7B7D00160C01 /* CoreMedia.framework */,
+				ADC98180167A786900160C01 /* AVFoundation.framework */,
 				ADC9814F167A698200160C01 /* UIKit.framework */,
 				ADC98151167A698200160C01 /* Foundation.framework */,
 				ADC98153167A698200160C01 /* CoreGraphics.framework */,
@@ -256,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSMp4Camera/iOSMp4Camera-Prefix.pch";
 				INFOPLIST_FILE = "iOSMp4Camera/iOSMp4Camera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +280,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSMp4Camera/iOSMp4Camera-Prefix.pch";
 				INFOPLIST_FILE = "iOSMp4Camera/iOSMp4Camera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -291,6 +305,7 @@
 				ADC98171167A698200160C01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
