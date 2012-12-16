@@ -115,7 +115,7 @@
         AVAssetExportSession *exportSession = [[AVAssetExportSession alloc]initWithAsset:avAsset
                                                                               presetName:_mp4Quality];
         NSDateFormatter* formater = [[NSDateFormatter alloc] init];
-        [formater setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+        [formater setDateFormat:@"yyyy-MM-dd-HH:mm:ss"];
         _mp4Path = [[NSHomeDirectory() stringByAppendingFormat:@"/Documents/output-%@.mp4", [formater stringFromDate:[NSDate date]]] retain];
         [formater release];
         
