@@ -115,7 +115,7 @@
         AVAssetExportSession *exportSession = [[AVAssetExportSession alloc]initWithAsset:avAsset
                                                                               presetName:_mp4Quality];
         NSDateFormatter* formater = [[NSDateFormatter alloc] init];
-        [formater setDateFormat:@"yyyy-MM-dd HH:mm:ss "];
+        [formater setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
         _mp4Path = [[NSHomeDirectory() stringByAppendingFormat:@"/Documents/output-%@.mp4", [formater stringFromDate:[NSDate date]]] retain];
         [formater release];
         
@@ -126,6 +126,7 @@
             switch ([exportSession status]) {
                 case AVAssetExportSessionStatusFailed:
                 {
+                    [_alert dismissWithClickedButtonIndex:0 animated:NO];
                     UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error"
                                                                     message:[[exportSession error] localizedDescription]
                                                                    delegate:nil
@@ -138,6 +139,8 @@
                     
                 case AVAssetExportSessionStatusCancelled:
                     NSLog(@"Export canceled");
+                    [_alert dismissWithClickedButtonIndex:0
+                                                 animated:YES];
                     break;
                 case AVAssetExportSessionStatusCompleted:
                     NSLog(@"Successful!");
