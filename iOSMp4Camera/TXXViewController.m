@@ -93,6 +93,7 @@
     
     AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:_videoURL options:nil];
     NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
+    NSLog(@"%@", compatiblePresets);
 
     if ([compatiblePresets containsObject:_mp4Quality])
         
@@ -114,6 +115,8 @@
 
         AVAssetExportSession *exportSession = [[AVAssetExportSession alloc]initWithAsset:avAsset
                                                                               presetName:_mp4Quality];
+        NSLog(@"%@", exportSession.supportedFileTypes);
+        
         NSDateFormatter* formater = [[NSDateFormatter alloc] init];
         [formater setDateFormat:@"yyyy-MM-dd-HH:mm:ss"];
         _mp4Path = [[NSHomeDirectory() stringByAppendingFormat:@"/Documents/output-%@.mp4", [formater stringFromDate:[NSDate date]]] retain];

@@ -2,6 +2,8 @@ iOSMp4Camera
 ============
 A Demo WIth UIIamgePicerView  and AVAssetExportSession
 
+##Attenction This Demo Based iOS 6 SDK...
+
 ##This demo shows:
 1. Record a Mov Video
 2. Convert To Mp4 File With Native API
